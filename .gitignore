@@ -10,16 +10,6 @@ frontend/build
 # Ignore environment files (for storing sensitive information)
 .env
 
-# Ignore any compiled TypeScript files
-*.js
-*.js.map
-
-# Ignore any compiled CSS files
-*.css
-
-# Ignore any compiled HTML files
-*.html
-
 # Ignore any compiled files or directories
 dist/
 build/

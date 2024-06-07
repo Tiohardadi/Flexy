@@ -1,0 +1,16 @@
+{
+  "name": "Flexy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Tiohardadi/Flexy.git",
+  "author": "tiohardadi116 <tiohardadi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "start": "concurrently \"yarn start:fe\" \"yarn start:be\" ",
+    "start:fe": "cd flexy-fe && yarn dev",
+    "start:be": "cd flexy-be && yarn start"
+  }  
+}
